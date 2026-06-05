@@ -56,7 +56,7 @@ sravanthibomma2000/petclinic:v2
 
 ## Live Application
 
-Application URL: http://100.31.116.116:8082
+Application URL: Available on AWS EC2 (Port 8082)
 
 ## Outcome
 
