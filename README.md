@@ -52,7 +52,7 @@ docker ps
 
 ## DockerHub Repository
 
-sravanthibomma2000/petclinic:v2
+sravanthibomma2000/petclinic:v3
 
 ## Live Application
 
