@@ -157,7 +157,7 @@ http://YOUR_PUBLIC_IP:8082
 Example:
 
 ```text
-http://100.31.116.116:8082
+https://100.31.116.116:8082
 ```
 
 ---
