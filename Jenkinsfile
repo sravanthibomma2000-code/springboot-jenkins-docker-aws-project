@@ -1,7 +1,6 @@
 pipeline {
 agent any
 
-```
 stages {
 
     stage('Clone') {
@@ -29,7 +28,5 @@ stages {
             echo 'DockerHub Push stage skipped temporarily'
         }
     }
-}
-```
-
+ }
 }
