@@ -1,9 +1,3 @@
-stage('Docker Build') {
-    steps {
-        sh 'docker build -t petclinic:v3 .'
-    }
-}
-
 stage('DockerHub Push') {
     steps {
         withCredentials([usernamePassword(
@@ -12,11 +6,11 @@ stage('DockerHub Push') {
             passwordVariable: 'DOCKER_PASS'
         )]) {
 
-            sh 
+            sh '''
             docker login -u $DOCKER_USER -p $DOCKER_PASS
             docker tag petclinic:v3 sravanthibomma2000/petclinic:v3
             docker push sravanthibomma2000/petclinic:v3
-        
+            '''
         }
     }
 }
